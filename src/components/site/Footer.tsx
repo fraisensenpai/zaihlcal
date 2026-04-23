@@ -9,8 +9,8 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-10 items-start">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gradient-gold flex items-center justify-center shadow-gold">
-                <span className="font-serif text-lg font-bold text-primary">Z</span>
+              <div className="w-10 h-10">
+                <img src="/logo.png" alt="ZAİHL Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                 <div className="font-serif text-lg">ZAİHL</div>
@@ -51,7 +51,11 @@ export const Footer = () => {
 
         <div className="mt-12 pt-6 border-t border-primary-foreground/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-primary-foreground/60">
           <div>© {new Date().getFullYear()} ZAİHL Medeniyet Çalıştayı. Tüm hakları saklıdır.</div>
-          <div>23 – 24 Mayıs · İstanbul</div>
+          <div className="flex items-center gap-4">
+            <div>23 – 24 Mayıs · İstanbul</div>
+            <div className="hidden sm:block w-px h-3 bg-primary-foreground/20" />
+            <div>FraisenSenpai tarafından ❤️ ile yapıldı</div>
+          </div>
         </div>
       </div>
     </footer>

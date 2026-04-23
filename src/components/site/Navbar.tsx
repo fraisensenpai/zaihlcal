@@ -33,8 +33,8 @@ export const Navbar = () => {
       <nav className="container flex items-center justify-between h-20">
         {/* Logo placeholder */}
         <a href="#hero" className="flex items-center gap-3 group">
-          <div className="w-11 h-11 rounded-full bg-gradient-gold flex items-center justify-center shadow-gold transition-smooth group-hover:scale-105">
-            <span className="font-serif text-xl font-bold text-primary">Z</span>
+          <div className="w-11 h-11 transition-smooth group-hover:scale-105">
+            <img src="/logo.png" alt="ZAİHL Logo" className="w-full h-full object-contain" />
           </div>
           <div className="leading-tight hidden sm:block">
             <div className={cn("font-serif text-lg font-semibold transition-smooth", scrolled ? "text-foreground" : "text-primary-foreground")}>

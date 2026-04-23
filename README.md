@@ -1,3 +1,3 @@
-# Welcome to your Lovable project
+# ZAİHL Medeniyet Çalıştayı
 
 TODO: Document your project here
