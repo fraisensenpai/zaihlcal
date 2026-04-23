@@ -1,5 +1,5 @@
 import { SectionHeading } from "./SectionHeading";
-import { Users, Brain, BookOpen, GraduationCap, Scale, Landmark, Globe2, Sparkles } from "lucide-react";
+import { Users, Brain, BookOpen, GraduationCap, Scale, Landmark, Globe2, Sparkles, Gavel } from "lucide-react";
 
 const committees = [
   { name: "Sosyoloji", icon: Users, desc: "Toplumsal yapılar, kurumlar ve medeniyetlerin sosyal dinamikleri üzerine derinlemesine analizler." },
@@ -10,6 +10,7 @@ const committees = [
   { name: "İslam Medeniyetleri Tarihi", icon: Landmark, desc: "İslam medeniyetinin entelektüel, kültürel ve siyasi mirası." },
   { name: "Human Rights Committee", icon: Globe2, desc: "Evrensel insan hakları, küresel sorumluluk ve uluslararası perspektif." },
   { name: "Kurgusal Komite", icon: Sparkles, desc: "Tarihsel senaryolar üzerinden yaratıcı, hızlı ve dinamik bir müzakere deneyimi." },
+  { name: "Siyaset", icon: Gavel, desc: "Siyasal düşünceler, yönetim modelleri ve iktidarın toplumsal yapılar üzerindeki etkisi üzerine tartışmalar." },
 ];
 
 export const Committees = () => {
@@ -20,7 +21,7 @@ export const Committees = () => {
       <div className="container relative">
         <SectionHeading
           eyebrow="Komitelerimiz"
-          title="Sekiz Komite, Sonsuz Perspektif"
+          title="Dokuz Komite, Sonsuz Perspektif"
           description="Her komite; medeniyetin farklı bir yapı taşını derinlemesine ele alıyor."
         />
 
