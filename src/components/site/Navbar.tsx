@@ -36,11 +36,11 @@ export const Navbar = () => {
           <div className="w-11 h-11 transition-smooth group-hover:scale-105">
             <img src="/logo.png" alt="ZAİHL Logo" className="w-full h-full object-contain" />
           </div>
-          <div className="leading-tight hidden sm:block">
-            <div className={cn("font-serif text-lg font-semibold transition-smooth", scrolled ? "text-foreground" : "text-primary-foreground")}>
+          <div className="leading-tight flex flex-col justify-center">
+            <div className={cn("font-serif text-base sm:text-lg font-semibold transition-smooth", scrolled ? "text-foreground" : "text-primary-foreground")}>
               ZAİHL
             </div>
-            <div className={cn("text-[10px] uppercase tracking-[0.2em] transition-smooth", scrolled ? "text-muted-foreground" : "text-primary-foreground/70")}>
+            <div className={cn("text-[8px] sm:text-[10px] uppercase tracking-[0.15em] sm:tracking-[0.2em] transition-smooth", scrolled ? "text-muted-foreground" : "text-primary-foreground/70")}>
               Medeniyet Çalıştayı
             </div>
           </div>
