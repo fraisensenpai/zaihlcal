@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "#komiteler", label: "Komitelerimiz" },
+  { href: "#ekibimiz", label: "Ekibimiz" },
   { href: "#hakkimizda", label: "Hakkımızda" },
   { href: "#misyon", label: "Misyon & Vizyon" },
   { href: "#akis", label: "Akış & Mekan" },

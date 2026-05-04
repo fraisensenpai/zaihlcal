@@ -4,6 +4,7 @@ import { About } from "@/components/site/About";
 import { MissionVision } from "@/components/site/MissionVision";
 import { Committees } from "@/components/site/Committees";
 import { Schedule } from "@/components/site/Schedule";
+import { Team } from "@/components/site/Team";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { useReveal } from "@/hooks/useReveal";
@@ -18,6 +19,7 @@ const Index = () => {
       <About />
       <MissionVision />
       <Committees />
+      <Team />
       <Schedule />
       <Contact />
       <Footer />
